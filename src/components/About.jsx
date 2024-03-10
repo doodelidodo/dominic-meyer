@@ -11,12 +11,12 @@ const About = () => {
                     </div>
                     <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi. Ich bin Dominic Meyer.</p>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4 items-center'>
+                    <div className='flex justify-center items-center mb-5 sm:mb-0'>
+                        <img src={MePic} alt="Dominic Meyer" className='w-[150px] sm:w-[200px] items-center'/>
                     </div>
                     <div>
-                        <p>Als erfahrener IT-Hase mit Fokus auf Programmierung und Expertise in Abacus Software, genieße
+                        <p className='text-xl'>Als erfahrener IT-Hase mit Fokus auf Programmierung und Expertise in Abacus Software, genieße
                             ich meine Freizeit beim Rennvelofahren und Schachspielen. Mit einem breiten Wissensspektrum und
                             einer Leidenschaft für Herausforderungen strebe ich stets nach persönlicher und beruflicher
                             Weiterentwicklung.</p>

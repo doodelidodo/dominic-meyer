@@ -1,4 +1,5 @@
 import { ReactTyped } from "react-typed";
+import { Link } from 'react-scroll';
 import {HiArrowNarrowRight} from "react-icons/hi";
 
 const Hero = () => {
@@ -28,11 +29,13 @@ const Hero = () => {
                     <p className="md:text-5xl sm:text-4xl text-xl font-bold">.</p>
                 </div>
                 <div>
-                    <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00df9a] hover:border-[#00df9a]">Let's go
-                        <span>
-                            <HiArrowNarrowRight className="ml-2 " />
-                        </span>
-                    </button>
+                    <Link to='about' smooth={true} duration={500} offset={-40}>
+                        <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00df9a] hover:border-[#00df9a]">Let's go
+                            <span>
+                                <HiArrowNarrowRight className="ml-2 " />
+                            </span>
+                        </button>
+                    </Link>
                 </div>
 
         </div>
