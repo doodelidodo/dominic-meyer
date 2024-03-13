@@ -16,7 +16,7 @@ const About = () => {
                         <img src={MePic} alt="Dominic Meyer" className='w-[150px] sm:w-[200px] items-center'/>
                     </div>
                     <div>
-                        <p className='text-xl'>Als erfahrener IT-Hase mit Fokus auf Expertise in Abacus Software und Programmierung, genieße
+                        <p className='text-xl'>Als erfahrener IT-Hase mit Fokus auf Expertise in Abacus Software und Programmierung, geniesse
                             ich meine Freizeit beim Rennvelofahren und Schachspielen. Mit einem breiten Wissensspektrum und
                             einer Leidenschaft für Herausforderungen strebe ich stets nach persönlicher und beruflicher
                             Weiterentwicklung.</p>
